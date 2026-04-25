@@ -49,7 +49,7 @@ public class Address {
     }
 
     public void setZipCode(String zipCode) {
-        this.zipCode = zipCode;
+        this.zipCode = zipCode.replace("-", "");
     }
 
     public String getStreet() {

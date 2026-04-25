@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AddressLocalDatabaseSearching implements AddressSearching {
+public class AddressLocalDatabaseSearchStrategy implements AddressSearchStrategy {
 
     @Autowired
     private AddressRepository addressRepository;
